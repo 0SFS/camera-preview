@@ -1,6 +1,6 @@
 # Camera preview
 
-Optional local mod/package in its own local Git repository for a live sensor preview in the Camera tab. Add **0SFS/camera-preview** from **Mods → This computer**, then choose it in the Camera tab's preview control. It runs only while that tab is visible. No GitHub repository has been created or published.
+The plugin mod `0sfs/camera-preview`: a live sensor preview in the Camera tab. The default modpack (`0SFS/default-modpack`) includes it, so every flight has it. Choose it in the Camera tab's preview control. It runs only while that tab is visible.
 
 The airframe selects a camera model through `quad.cameraId`. Camera model mods own sensor dimensions, lens field of view and capture metadata; airframes own their motion and gimbal mounting. This preview reads the selected sensor through a host callback and has no camera-model, aircraft, renderer or JPEG dependency. An airframe variant can select another camera without changing this component.
 
