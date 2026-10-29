@@ -1,0 +1,16 @@
+{
+  "name": "@0sfs/camera-preview",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "description": "Optional, replaceable camera preview mod consuming upright RGBA frames.",
+  "exports": {
+    ".": { "source": "./src/index.ts", "default": "./src/index.ts" },
+    "./types": { "source": "./src/types.ts", "default": "./src/types.ts" },
+    "./manifest": "./public/0sfs-mod.json"
+  },
+  "scripts": { "build": "node scripts/build.mjs" },
+  "peerDependencies": { "@foss-earth/ui": "0.1.0", "@0sfs/mods": "0.1.0" },
+  "peerDependenciesMeta": { "@0sfs/mods": { "optional": true } }
+}
