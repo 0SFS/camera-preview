@@ -30,3 +30,5 @@ cd ~/gh/0sfs/camera-preview && npm run build
 ```
 
 `public/preview.js` is generated and ignored. Its shared help/icon UI is bundled; no imports are left for the mod host to resolve. The provider contains no WebGL capture path. The host's WebGPU sensor renderer supplies its pixels.
+
+Topics: `0sfs-mod` and `0sfs-plugin-mod`. [Modding guide](https://github.com/0SFS/docs/blob/main/modding.md) describes discovery and installation.
